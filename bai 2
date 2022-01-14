@@ -1,0 +1,6 @@
+lastname, firstname = input("Nhập tên đệm và tên: ").split()
+print(lastname)
+dem = 0
+for i in range(1, len(lastname) + len(firstname) + 1):
+  dem += i
+print("Tổng = ", dem)

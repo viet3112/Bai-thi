@@ -1,9 +1,8 @@
-name = str(input("Nhập tên và SBD của bạn : "))
-print("Tên của bạn là : ",name);
-name=name.replace(" ",",");
-print("Chuỗi kí tự đầu vào là : ",name);
-# n=input("Nhập vào các giá trị:")
-l=name.split(",")
-t=tuple(l)
+ten = input("Nhập tên và msv sinh viên: ")
+print(ten)
+n = len(ten)
+name = input(" chuỗi tạo ra ở câu a: ")
+l = name.split(",")
+t = tuple(l)
 print (l)
 print (t)

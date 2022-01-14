@@ -1,0 +1,6 @@
+ten = input("Nhập tên: ")
+print(ten)
+list = {}
+for i in range(1, len(ten)):
+  list.setdefault(i, i*i)
+print(list)
